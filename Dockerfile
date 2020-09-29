@@ -7,6 +7,7 @@ RUN apk add \
     curl \
     grep \
     sed \
+    awk \
     jq \
     lftp
 # Get common script
