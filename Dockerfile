@@ -7,7 +7,9 @@ RUN apk add \
     curl \
     grep \
     sed \
-    jq \
-    lftp
+    jq \ 
+    lftp \
+    git \    
+    openssh-client
 # Get common script
 RUN wget -P / https://bitbucket.org/bitbucketpipelines/bitbucket-pipes-toolkit-bash/raw/0.4.0/common.sh
